@@ -1,0 +1,54 @@
+.navbar {
+  position: relative;
+}
+
+.navDiv {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 130px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: #01aeb7;
+  transition: .2s;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+}
+
+.navPara1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    font-size: 1.1rem;
+}
+
+.navHeading{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 130px;
+    font-size: 4rem;
+    line-height: 6.5rem;
+    color: #01aeb7;
+}
+
+.navPara2{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 130px;
+    font-size: 1.1rem;
+}
